@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        . "Meal: $meal\n"
        . "Drink: $drink";
 
-  $owner = "94703466781";
+  $owner = "94765637699";
 
   // URL encode message
   $encodedMsg = urlencode($msg);
@@ -58,7 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Booking | Rayal Park</title>
+  <title>Booking | Tharaka Hotel</title>
+  <link rel="icon" type="image/png" href="../Pictures/logo.png">
   <link rel="stylesheet" href="book.css">
 </head>
 <body>
@@ -79,8 +80,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <li><a href="../home/index.html">Home</a></li>
       <li><a href="../about/about.htmlabout.html">About</a></li>
       <li><a href="../service/service.htmlservice.html">Services</a></li>
-      <li><a href="../explore.html">Explore</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#booking" active>Booking</a></li>
+      <li><a href="../contact/contact.php">Contact</a></li>
     </ul>
   </nav>
   
@@ -188,7 +189,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      
 
       <!-- BUTTON -->
-      <button type="submit" class="btn booking__btn">Book Now</button>
+      <button type="submit" class="btn">Book Now</button>
+      <a href=""><button class="btn">Book Now</button></a>
 
       <!-- WHATSAPP LINK -->
      
