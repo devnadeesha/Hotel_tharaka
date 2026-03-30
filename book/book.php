@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        . "Meal: $meal\n"
        . "Drink: $drink";
 
-  $owner = "94765637699";
+  $owner = "94703466781";
 
   // URL encode message
   $encodedMsg = urlencode($msg);
